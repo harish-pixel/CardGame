@@ -20,6 +20,9 @@ public class Card implements Comparable<Card> {
         if(value < 1 || value > 13) {
             throw new IllegalArgumentException("Illegal card value.");
         }
+        if (suit != Suit.HEARTS && suit != Suit.SPADES && suit != Suit.DIAMONDS && suit != Suit.CLUBS) {
+            throw new IllegalArgumentException("Illegal card Suit.");
+        }
         this.value = value;
         this.suit = suit;
     }
