@@ -1,8 +1,8 @@
 # CardGame
 A Card game where card are shuffled randomly and dealt among 4 users, and we find a winner based on the rules.
 
-# I have written tests for core functionality and i will add more if needed.
-# I have added some validation.
+- I have written tests for core functionality and i will add more if needed.
+- I have added some validation.
 
 
 #RULES
